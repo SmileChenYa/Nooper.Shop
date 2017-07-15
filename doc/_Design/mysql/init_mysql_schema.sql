@@ -234,7 +234,7 @@ create table if not exists `product_detail`(
  */
 drop table if exists `product_group`;
 create table if not exists `product_group`(
-	id` bigint unsigned auto_increment not null,
+	`id` bigint unsigned auto_increment not null,
 	`unique_id` char(12) character set utf8 collate utf8_bin not null,
 	`name` varchar(100) character set utf8 collate utf8_bin not null,
 	`total_price` decimal(10, 4) not null,
